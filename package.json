@@ -1,0 +1,16 @@
+{
+    "name": "TaoGenerator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "deploy": "gh-pages -d TAOGENERATOR"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bayo19.github.io/TaoGenerator",
+    "dependencies": {
+        "gh-pages": "^2.1.1"
+    }
+}
