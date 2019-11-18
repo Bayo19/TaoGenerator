@@ -54,6 +54,12 @@ button {
     font-family: 'Noto Sans HK', sans-serif;
     outline: none;
     font-size: 16px;
+    transition: .19s ease-in-out;
+}
+
+button:hover {
+    background: blueviolet;
+    transition: .29s ease-in-out;
 }
 
 .button123 {
