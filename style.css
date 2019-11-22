@@ -1,8 +1,30 @@
+    #spen p {
+        padding: 30px
+    }
+    
     .container {
+        position: relative;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-gap: 10px;
         padding: 40px;
+    }
+    
+    .about-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 30px 25px 0 25px;
+    }
+    
+    .about-link a {
+        text-decoration: none;
+        color: rgb(45, 44, 44);
+        font-family: 'Noto Sans HK', sans-serif;
+    }
+    
+    .about-link a:hover {
+        text-decoration: underline;
     }
     
     .hh1 {
@@ -87,8 +109,15 @@
     
     @media (max-width: 720px) {
         .container {
+            position: relative;
             display: grid;
             grid-gap: 10px;
+        }
+        .about-link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 25px;
         }
         #output2 {
             grid-column: span 12 / -1;
@@ -125,6 +154,15 @@
     }
     
     @media (max-width: 500px) {
+        .container {
+            position: relative;
+        }
+        .about-link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 3px;
+        }
         .the1 {
             font-size: 26px;
         }
